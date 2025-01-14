@@ -1,10 +1,13 @@
+import TodoContainer from "./components/todo/TodoContainer";
 import { Button } from "./components/ui/button";
+import Todo from "./page/Todo";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl ">Started the project</h1>
-      <Button>My Button</Button>
+      {/* <TodoContainer></TodoContainer>
+       */}
+      <Todo></Todo>
     </>
   );
 }
