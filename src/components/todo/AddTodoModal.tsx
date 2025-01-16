@@ -3,7 +3,6 @@ import {
   Dialog,
   DialogContent,
   DialogDescription,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -12,8 +11,9 @@ import { Input } from "../ui/input";
 import { Label } from "../ui/label";
 import { FormEvent, useState } from "react";
 import { DialogClose } from "@radix-ui/react-dialog";
-import { useAppDispatch } from "@/redux/features/hook";
+
 import { addTodo } from "@/redux/features/todoSlice";
+import { useAppDispatch } from "@/redux/features/hook";
 
 const AddTodoModal = () => {
   const dispatch = useAppDispatch();
